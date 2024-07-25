@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 4px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row2{
+    margin: 9px 0;
+ 
+}
+.row3{
+    margin: 9px 0;
+ 
+}
+.row4{
+    margin: 9px 0;
+ 
+}
+.row5{
+    margin: 9px 0;
+ 
+}
+.row6{
+    margin: 9px 0;
+ 
+}
+.row1 input{
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.row2 :nth-of-type(1){
+    background-color: yellow;
+}
+.row2 :nth-of-type(2){
+    background-color: yellow;
+}
+.row2 :nth-of-type(3){
+    background-color: yellow;
+}
+.row2 :nth-of-type(4){
+    background-color: yellow;
+}
+.row3 :nth-child(4){
+    background-color: yellow;
+}
+.row4 :nth-child(4){
+    background-color: yellow;
+}
+.row5 :nth-child(4){
+    background-color: yellow;
+}
+.row6 :nth-child(4){
+    background-color: yellow;
+}
+h1{
+    color: white
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpeg);
+    background-size: cover;
+}
