@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
    <link rel="stylesheet" href="style.css">
 </head>
 <script src="https://kit.fontawesome.com/78db985a2d.js" crossorigin="anonymous"></script>
+
 <body>
    <div id="header">
-      <div class="container">
+      <div class="container-head">
          <nav>
             <img src="portfolio.png" class="logo">
-            <ul id="sidemenu">
-               <li><a href="#header">Home</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#services">Services</a></li>
-               <li><a href="#portfolio">Portfolio</a></li>
-               <li><a href="#contact">Contact</a></li>
-               
-            </ul>
-            
+            <div class="nav_menu">
+               <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+               <div class="close_menu">
+                  <i class="fa-solid fa-xmark"></i>
+               </div>
+            </div>
+            <div class="hamburgar-menu"><i class="fa-solid fa-bars"></i></div>
          </nav>
+      </div>
+      <div class="hero-sec">
          <div class="header-text">
             <p>Electrical Engineering student,JGEC</p>
             <h1>Hi I'am <span>Agniva Shee</span><br>from West Bengal, INDIA</h1>
          </div>
-      </div>
-    </div>
-   <div class="box">
-      <div class="content">
-         <img src="photo.jpg">
-         <h2>Someone who is <br><span>Eager to learn</span></h2>
-         <a href="#">Hire me</a>
+         <div class="box">
+            <div class="content">
+               <img src="photo.jpg">
+               <h2>Someone who is <br><span>Eager to learn</span></h2>
+               <a href="#">Hire me</a>
+            </div>
+         </div>
       </div>
    </div>
+
    <!-- ..........about.............. -->
    <div id="about">
       <div class="box1">
          <div class="row">
             <div class="about-col-1">
-            <img src="image.jpg">
+               <img src="image.jpg">
             </div>
             <div class="about-col-2">
-            <h1 class="sub-titles">About Me</h1>
-            <p>Hi, I am Agniva Shee,1st yr Electrical Engineering Student from Jalpaiguri Government     Engineering College Autonomous.
-               <br>Driven Electrical Engineering student at Jalpaiguri Government Engineering College, <br>eager to explore and learn the ever-evolving world of technology. Possesses a strong foundation in electrical principles and a <br> passion for delving deeper into its applications. I am open to internship and project opportunities that will fuel my learning and <br> contribute to innovative solutions.</p>
+               <h1 class="sub-titles">About Me</h1>
+               <p>Hi, I am Agniva Shee,1st yr Electrical Engineering Student from Jalpaiguri Government Engineering
+                  College Autonomous.
+                  <br>Driven Electrical Engineering student at Jalpaiguri Government Engineering College, <br>eager to
+                  explore and learn the ever-evolving world of technology. Possesses a strong foundation in electrical
+                  principles and a <br> passion for delving deeper into its applications. I am open to internship and
+                  project opportunities that will fuel my learning and <br> contribute to innovative solutions.
+               </p>
 
                <div class="tab-titles">
-                  <p class="tab-links active-link" onclick="opentab('skills')">skills</p>           
+                  <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
                   <p class="tab-links" onclick="opentab('Experience')">Experience</p>
                   <p class="tab-links" onclick="opentab('Education')">Education</p>
                </div>
@@ -56,7 +70,8 @@
                   <ul>
                      <li><span>Technical Skills</span><br>Arduino IDE<br>Arduino<br>C/C++<br>Web Development</li>
                      <li><span>Soft Skills</span><br>Teamwork<br>Time Management<br>Communication
-                        <br>Adaptability<br>Critical Thinking<br>Leadership</li>
+                        <br>Adaptability<br>Critical Thinking<br>Leadership
+                     </li>
                      <li><span>Other Skills</span><br>Chess<br>Painting<br>Photography</li>
                   </ul>
                </div>
@@ -69,159 +84,191 @@
                <div class="tab-contents" id="Education">
                   <ul>
                      <li><span>2015 - 2023</span><br>Sibpur S.S.P.S. Vidyalaya<br>HS,Computer Science</li>
-                     <li><span>2023 - ongoing</span><br>Jalpaiguri Government Engineering College<br>Undergraduate Electrical Engineering</li>
+                     <li><span>2023 - ongoing</span><br>Jalpaiguri Government Engineering College<br>Undergraduate
+                        Electrical Engineering</li>
                   </ul>
                </div>
             </div>
+         </div>
+      </div>
+   </div>
+   <!-- ..........services........... -->
+   <div id="services">
+      <div class="container">
+         <h1 class="sub-titles">My Services</h1>
+         <div class="services-list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h2>Web Development</h2>
+               <p>I'm an evolving web developer passionate about building responsive and interactive experiences. With a
+                  strong foundation in HTML, CSS, and JavaScript, I've honed my skills through various small projects.
+               </p>
+               <a href="#">Learn More</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-palette"></i>
+               <h2>paintings/portraits/designs</h2>
+               <p> I explore the world through my paintings. Each piece is a journey of discovery, capturing the essence
+                  of what inspires me. </p>
+               <a href="#">Learn More</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-camera"></i>
+               <h2>Event Photography</h2>
+               <p>LPhotography, for me, is more than just capturing a moment. It's about freezing a feeling, revealing
+                  the beauty in the ordinary, and sharing a unique perspective on the world </p>
+               <a href="#">Learn More</a>
             </div>
          </div>
       </div>
-      <!-- ..........services........... -->
-       <div id="services">
-         <div class="container">
-            <h1 class="sub-titles">My Services</h1>
-               <div class="services-list">
-                <div>
-                  <i class="fa-solid fa-code"></i>
-                  <h2>Web Development</h2>
-                  <p>I'm an evolving web developer passionate about building responsive and interactive experiences. With a strong foundation in HTML, CSS, and JavaScript, I've honed my skills through various small projects. </p>
-                  <a href="#">Learn More</a>
-                </div>
-                <div>
-                  <i class="fa-solid fa-palette"></i> 
-                  <h2>paintings/portraits/designs</h2>
-                  <p> I explore the world through my paintings. Each piece is a journey of discovery, capturing the essence of what inspires me. </p>
-                  <a href="#">Learn More</a>
+   </div>
+   <!-- ............portfolio........... -->
+   <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-titles">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="work-1.png">
+               <div class="layer">
+                  <h3>Festival website</h3>
+                  <p> A simple website and my first project on
+                     <br>html a very simple website for indian festivals
+                  </p>
+                  <a href="HTML WEBSITE/Indian subcontinent.html"><i
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
                </div>
-               <div>
-                  <i class="fa-solid fa-camera"></i>
-                  <h2>Event Photography</h2>
-                  <p>LPhotography, for me, is more than just capturing a moment. It's about freezing a feeling, revealing the beauty in the ordinary, and sharing a unique perspective on the world </p>
-                  <a href="#">Learn More</a>
-                </div>
-               </div>
-         </div>
-       </div>
-<!-- ............portfolio........... -->
- <div id="portfolio">
-   <div class="container">
-      <h1 class="sub-titles">My Work</h1>
-      <div class="work-list">
-         <div class="work">
-            <img src="work-1.png">
-            <div class="layer">
-               <h3>Festival website</h3>
-               <p> A simple website and my first project on
-                  <br>html a very simple website for indian festivals</p>
-                  <a href="HTML WEBSITE/Indian subcontinent.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
-         </div>
-         <div class="work">
-            <img src="work-2.png">
-            <div class="layer">
-               <h3>Calculator</h3>
-               <p> A simple working calculator by using htms and css</p>
+            <div class="work">
+               <img src="work-2.png">
+               <div class="layer">
+                  <h3>Calculator</h3>
+                  <p> A simple working calculator by using htms and css</p>
                   <a href="calculator/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
             </div>
-         </div>
-         <div class="work">
-            <img src="work-3.png">
-            <div class="layer">
-               <h3>Jarvis AI</h3>
-               <p>A ai which can do very simple tasks</p>
+            <div class="work">
+               <img src="work-3.png">
+               <div class="layer">
+                  <h3>Jarvis AI</h3>
+                  <p>A ai which can do very simple tasks</p>
                   <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
             </div>
          </div>
+         <a href="#" class="btn">See more</a>
       </div>
-      <a href="#" class="btn">See more</a>
- </div>
- <!-- ..............contact................ -->
-  <div id="contact">
-   <div class="container">
-      <div class="row">
-         <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <div><i class="fa-solid fa-envelope"></i>  contact@example.com</div>
-            <div><i class="fa-solid fa-phone-volume"></i> 0123456789</div>
-            <div class="social-icons">
-               <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
-               <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
-               <a href="https://instragram.com/"><i class="fa-brands fa-square-instagram"></i></a>
-               <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+      <!-- ..............contact................ -->
+      <div id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <div><i class="fa-solid fa-envelope"></i> contact@example.com</div>
+                  <div><i class="fa-solid fa-phone-volume"></i> 0123456789</div>
+                  <div class="social-icons">
+                     <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                     <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                     <a href="https://instragram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                     <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  <a href="./Resume.html" download class="btn btn2">Download Resume</a>
+               </div>
+               <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                     <input type="text" name="Name" placeholder="Enter your name">
+                     <input type="email" name="Email" placeholder="Enter your email">
+                     <textarea name="message" rows="6" placeholder="Enter your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+               </div>
             </div>
-            <a href="./Resume.html" download class="btn btn2">Download Resume</a>
          </div>
-            <div class="contact-right">
-               <form name="submit-to-google-sheet">
-               <input type="text" name="Name" placeholder="Enter your name">
-               <input type="email" name="Email" placeholder="Enter your email">
-               <textarea name="message" rows="6" placeholder="Enter your Message"></textarea>
-               <button type="submit" class="btn btn2">Submit</button>
-               </form>
-               <span id="msg"></span>
-            </div>
+         <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i> Copyright © Agniva. All rights reserved.</p>
+         </div>
       </div>
-   </div>
-   <div class="copyright">
-      <p><i class="fa-solid fa-copyright"></i> Copyright © Agniva. All rights reserved.</p>
-   </div>
-  </div>
       <script>
          function opentab(tabname) {
-           // Remove "active-link" from all tab links
-           var tablinks = document.getElementsByClassName("tab-links");
-           for (var tablink of tablinks) {
-             tablink.classList.remove("active-link");
-           }
-         
-           // Remove "active-tab" from all tab contents
-           var tabcontents = document.getElementsByClassName("tab-contents");
-           for (var tabcontent of tabcontents) {
-             tabcontent.classList.remove("active-tab");
-           }
+            // Remove "active-link" from all tab links
+            var tablinks = document.getElementsByClassName("tab-links");
+            for (var tablink of tablinks) {
+               tablink.classList.remove("active-link");
+            }
 
-           // Get the clicked element and handle potential errors
-           const tabElement = document.getElementById(tabname);
-           if (tabElement) {
-             tabElement.classList.add("active-tab");
-           } else {
-             console.error("Element with ID", tabname, "not found");
-           }
+            // Remove "active-tab" from all tab contents
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            for (var tabcontent of tabcontents) {
+               tabcontent.classList.remove("active-tab");
+            }
+
+            // Get the clicked element and handle potential errors
+            const tabElement = document.getElementById(tabname);
+            if (tabElement) {
+               tabElement.classList.add("active-tab");
+            } else {
+               console.error("Element with ID", tabname, "not found");
+            }
          }
-         </script>
-         
-<script>
+      </script>
 
-var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-   sidemenu.style.right = "0";
-}
+      <script>
 
-function closemenu(){
-   sidemenu.style.right = "-200px";
-}
-</script>
-<script>
-   const scriptURL = 'https://script.google.com/macros/s/AKfycbxvugm7eIgwCtnZpCNEycaVchnFg0F5eR-xSyMiCCpTFNAv06fn355vdeZk0Fumqm0/exec'
-   const form = document.forms['submit-to-google-sheet']
-   const mag = document.getElementById("msg")
- 
-   form.addEventListener('submit', e => {
-     e.preventDefault()
-     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         var sidemenu = document.getElementById("sidemenu");
+         function openmenu() {
+            sidemenu.style.right = "0";
+         }
 
-     .then(response => 
-   {
-      msg.innerHTML = "Message sent Successfully"
-      setTimeout(function(){
-         msg.innerHTML = ""
-      },5000)
-      form.reset()
-   }
- )
+         function closemenu() {
+            sidemenu.style.right = "-200px";
+         }
+      </script>
+      <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbxvugm7eIgwCtnZpCNEycaVchnFg0F5eR-xSyMiCCpTFNAv06fn355vdeZk0Fumqm0/exec'
+         const form = document.forms['submit-to-google-sheet']
+         const mag = document.getElementById("msg")
 
-       .catch(error => console.error('Error!', error.message))
-   })
- </script>
+         form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+
+               .then(response => {
+                  msg.innerHTML = "Message sent Successfully"
+                  setTimeout(function () {
+                     msg.innerHTML = ""
+                  }, 5000)
+                  form.reset()
+               }
+               )
+
+               .catch(error => console.error('Error!', error.message))
+         })
+
+         const nav_menu = document.querySelector(".nav_menu"),
+            nav_toggler = document.querySelector(".hamburgar-menu"),
+            nav_close = document.querySelector(".close_menu")
+
+            if(nav_toggler) {
+               nav_toggler.addEventListener("click", () => {
+                  nav_menu.classList.add("show_menu")
+               })
+            }
+
+            if(nav_close) {
+               nav_close.addEventListener("click", () => {
+                  nav_menu.classList.remove("show_menu")
+               })
+            }
+
+            const nav_links = document.querySelectorAll("#sidemenu")
+
+            nav_links.forEach(link => {
+               link.addEventListener("click", () => {
+                  nav_menu.classList.remove("show_menu")
+               })
+            })
+
+      </script>
 </body>
+
 </html>
